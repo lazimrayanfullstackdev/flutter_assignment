@@ -39,7 +39,6 @@ class Student extends Person{
 
   double averageScore(){
     double sum = 0.0;
-    //print(sum);
 
     for(int i=0; i<courseScores.length; i++){
       sum = sum + courseScores[i];
